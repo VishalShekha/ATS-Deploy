@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    margin-top: 5vh;
+    height: 90vh; /* Full viewport height */
+    background: linear-gradient(to right, #5f72be, #9b9bff);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2vh;
+}
+
+.leftPanel, .rightPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Center content vertically and horizontally in leftPanel and rightPanel */
+.leftPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.rightPanel {
+    flex: 1;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.formContainer {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff; /* Clean white background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.formContainer label {
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #3a4d70; /* Slightly darker color for labels */
+}
+
+.formContainer input {
+    width: 95%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: #f4f4f4;
+    color: #333; /* Dark text color for readability */
+    transition: 0.3s;
+    cursor: text; /* Ensures cursor is a text pointer */
+}
+
+.formContainer input:focus {
+    border: 1px solid #4d8cf3; /* More vibrant focus color */
+    background: #fff;
+    outline: none;
+}
+
+.formContainer input::placeholder {
+    color: #888; /* Light gray color for placeholder text */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.options label input[type="checkbox"] {
+    cursor: pointer; /* Make the cursor pointer over the checkbox */
+}
+
+.options a {
+    text-decoration: none;
+    color: #4d8cf3; /* Soft blue for links */
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.options a:hover {
+    color: #365d9c; /* Darker blue on hover */
+}
+
+
+.error {
+    background: #f44336; /* Red for error, more modern */
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.loginBtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.loginBtn {
+    background: linear-gradient(to right, #4d8cf3, #3bb5f9); /* Soft gradient for button */
+    color: white;
+}
+
+.loginBtn:hover {
+    background: linear-gradient(to right, #365d9c, #1c8bc6); /* Darker gradient for hover */
+}

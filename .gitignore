@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+
+# Next.js Static files
+dist/
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# TypeScript specific files (if using TypeScript)
+*.tsbuildinfo
+
+# Firebase-specific files (if using Firebase)
+.firebase/
+
+# Coverage folder
+coverage/
+
+# .next/cache
+.next/cache/
+
+# Docker files
+.docker/
+
+# VSCode settings
+.vscode/
+
+# Local cache for yarn
+.yarn/
+
+# JetBrains files
+.idea/
+
+# pnpm lock file (if using pnpm)
+pnpm-lock.yaml
